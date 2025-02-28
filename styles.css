@@ -52,6 +52,47 @@ select {
 }
 /* CSS Reset */
 
+/* Body */
 body {
   background-color: #25095b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Input */
+.input-box {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  padding-inline: 0.5rem;
+  width: 20rem;
+  height: 3rem;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+i {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.eye-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 100%;
+}
+
+.icon-red {
+  color: red;
 }
