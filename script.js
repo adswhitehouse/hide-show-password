@@ -3,12 +3,10 @@ let passwordInput = document.querySelector("input");
 
 eyeIcon.addEventListener("click", () => {
   if (passwordInput.type === "password") {
-    eyeIcon.classList.add("icon-red");
-    eyeIcon.classList.add("fa-eye");
+    eyeIcon.classList.add("icon-red", "fa-eye");
     passwordInput.type = "text";
   } else {
-    eyeIcon.classList.remove("icon-red");
-    eyeIcon.classList.remove("fa-eye");
+    eyeIcon.classList.remove("icon-red", "fa-eye");
     passwordInput.type = "password";
   }
 });
